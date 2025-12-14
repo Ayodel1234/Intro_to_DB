@@ -1,1 +1,1 @@
-SHOW COLUMNS FROM books;
+SHOW CREATE TABLE books;
