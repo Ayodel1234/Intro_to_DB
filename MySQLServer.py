@@ -12,7 +12,7 @@ def create_database():
 
         cursor = db.cursor()
 
-        # Create database if it doesn't exist (Strictly avoiding SELECT/SHOW)
+        # Create database if it doesn't exist 
         cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
         
         # Print the required success message
